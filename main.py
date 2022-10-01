@@ -21,47 +21,6 @@ def add_item():
     parts_list.delete(0,END)
 
 
-
-
-
-
-
-
-print("hello whrld")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     parts_list.insert(END,(part_text.get(),customer_text.get(),relatier_text.get(),price_text.get()))
 
     clear_text()
